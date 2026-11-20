@@ -256,7 +256,7 @@ The repository includes an automated CI/CD pipeline defined in [`.github/workflo
    - Executes full Pytest suite.
 2. **Job 2: Container Image Build (`docker-build`)**
    - Depends on `test` job passing.
-   - Validates that `Dockerfile` builds cleanly without warnings or missing files.
+   - Validates that `Dockerfile` builds cleanly without warnings or missing files
 
 ---
 
